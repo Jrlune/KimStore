@@ -1,12 +1,17 @@
 {
-  "name": "kimstore",
+  "name": "jrlune",
   "version": "1.0.0",
   "description": "store application",
   "main": "index.js",
   "dependencies": {
     "q": "^1.4.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^3.5.0",
+    "eslint-config-standard": "^6.0.0",
+    "eslint-plugin-promise": "^2.0.1",
+    "eslint-plugin-standard": "^2.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
