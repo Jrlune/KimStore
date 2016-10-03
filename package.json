@@ -4,7 +4,9 @@
   "description": "store application",
   "main": "index.js",
   "dependencies": {
-    "q": "^1.4.1"
+    "mongoose": "^4.6.1",
+    "q": "^1.4.1",
+    "restify": "^4.1.1"
   },
   "devDependencies": {
     "eslint": "^3.5.0",
