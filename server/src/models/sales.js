@@ -43,7 +43,7 @@ var allSales = [
   }
 ];
 
-function findByCustomerName(customerName) {
+function findByCustomerName (customerName) {
   var result = [];
   allSales.filter(function (sale) {
     if (sale._customerName === customerName) {
@@ -57,7 +57,7 @@ function findByCustomerName(customerName) {
   return q.resolve(result);
 }
 
-function findByDate(date) {
+function findByDate (date) {
   var result = [];
   allSales.filter(function (sale) {
     if (sale._date === date) {
@@ -71,7 +71,7 @@ function findByDate(date) {
   return q.resolve(result);
 }
 
-function findById(id) {
+function findById (id) {
   var result = [];
   allSales.filter(function (sale) {
     if (sale._id === id) {
